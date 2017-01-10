@@ -1,1 +1,3 @@
-# materialize-jquery-2
+# didInsertElement() {
+    Ember.$(".button-collapse").sideNav();
+  },
