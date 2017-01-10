@@ -1,3 +1,6 @@
-# didInsertElement() {
-    Ember.$(".button-collapse").sideNav();
-  },
+export default Ember.Route.extend({
+  actions: {
+    didInsertElement() {
+      Ember.$(".button-collapse").sideNav();
+    }
+  }
